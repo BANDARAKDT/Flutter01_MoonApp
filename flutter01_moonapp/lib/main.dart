@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
         actions: [
             IconButton(
               onPressed: () {},
-              icon: Icon(Icons.menu),
+              icon: Icon(Icons.menu,
+              color: Colors.yellowAccent,),
             )
           ],),
 
@@ -36,7 +37,10 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(color:Colors.white,
                 fontSize: 20,
                 fontWeight: FontWeight.bold),
-                )
+                ),
+
+                Image.asset("Assets/space1.png"),
+
                 ],
                 ),
           )
